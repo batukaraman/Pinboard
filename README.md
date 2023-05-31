@@ -16,4 +16,4 @@ Simple full stack chrome extension.
 4. Click on the "Install unpacked item" button and select the `client` path.
 
 ### Warning
-As the plugin is not fully completed, there are many issues and vulnerabilities. Since you can use it on all the pages you enter, it may cause problems on some pages. In such a case, you can uninstall or deactivate the plugin.
+Since the extension is not fully completed, it has many problems and vulnerabilities. Since you can use it on all pages you enter, it may cause problems on some pages. In such a case, you can remove or deactivate the extension.
