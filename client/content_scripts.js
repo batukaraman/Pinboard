@@ -341,7 +341,7 @@ function createAreaSaveButton(x, y, id) {
         url,
         positionX,
         positionY,
-        userId: 1,
+        userId: userId,
         typeId,
       };
 
