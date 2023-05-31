@@ -1,2 +1,2 @@
 # Pinboard
-Full stack chrome extension.
+Simple full stack chrome extension.
