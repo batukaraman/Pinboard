@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Pinboard",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Pinboard",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content_scripts.js"],
+      "css": ["content_styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "icons": {
+    "48": "icon.png"
+  }
+}
