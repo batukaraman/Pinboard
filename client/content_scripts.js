@@ -1,5 +1,16 @@
 let userId;
 
+var linkElement = document.createElement("link");
+
+linkElement.href =
+  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+linkElement.rel = "stylesheet";
+linkElement.integrity =
+  "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN";
+linkElement.crossOrigin = "anonymous";
+
+document.head.appendChild(linkElement);
+
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   if (message.action === "togglePinboard") togglePinboard();
   userId = message.additionalData;
