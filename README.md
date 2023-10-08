@@ -1,9 +1,5 @@
 # Pinboard
 
-A simple full-stack Chrome extension.
-
-## Description
-
 With this extension, you can leave private or public comments, notes, or complaints on any site you visit. To start using it, sign up or log in and click the "Open Pinboard" button.
 
 ## Usage
