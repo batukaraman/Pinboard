@@ -2,8 +2,6 @@
 
 <img width="100%" src="https://i.yourimageshare.com/sL6XeQ5Opn.gif" />
 
-https://github.com/ilknurtulgar/TerapiEvim/assets/63793311/06860e51-bb45-4bcf-b1f9-1067a5dd40e5
-
 With this extension, you can leave private or public comments, notes, or complaints on any site you visit. To start using it, sign up or log in and click the "Open Pinboard" button.
 
 ## Usage
